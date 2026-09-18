@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perio Dent | Modern Dental Clinic in Mumbai</title>
+    <meta name="description" content="Experience premium, painless dental care at Perio Dent, a top-rated clinic in Andheri West, Mumbai. Offering root canals, gum surgery, and modern treatments.">
+    
+    <!-- SEO & Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Perio Dent",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shop No 11, DLH Dream Tower, Jai Bhavani Mata Road, Amboli, Andheri West",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400058",
+        "addressCountry": "IN"
+      },
+      "telephone": "07021306774",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "526"
+      },
+      "openingHours": "Mo-Su 09:00-21:30"
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Intro Loader -->
+    <div class="intro-loader">
+        <h1 class="loader-text">PERIO DENT</h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <div class="nav-container">
+            <a href="#" class="logo magnetic">PERIO DENT</a>
+            <div class="nav-links">
+                <a href="#about" class="magnetic">Clinic</a>
+                <a href="#treatments" class="magnetic">Treatments</a>
+                <a href="#reviews" class="magnetic">Reviews</a>
+            </div>
+            <a href="tel:07021306774" class="btn btn-primary magnetic hide-mobile">Call Clinic</a>
+            <button class="mobile-menu-btn magnetic">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-nav-links">
+            <a href="#about">Clinic</a>
+            <a href="#treatments">Treatments</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+            <a href="tel:07021306774" class="btn btn-primary mt-4">Call: 07021306774</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image-wrapper">
+                <img src="public/images/hero_clinic_1789560672181.png" alt="Interior of Perio Dent clinic" class="hero-img">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="trust-badge reveal-up">
+                    <span class="star">★</span> 5.0 Google Rating (526 Reviews)
+                </div>
+                <h2 class="hero-title">
+                    <span class="line-wrap"><span class="line">Precision Care.</span></span>
+                    <span class="line-wrap"><span class="line">Painless</span></span>
+                    <span class="line-wrap"><span class="line">Dentistry.</span></span>
+                </h2>
+                <div class="hero-actions reveal-up">
+                    <a href="tel:07021306774" class="btn btn-primary magnetic">Book Appointment</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statement Section -->
+        <section class="statement">
+            <div class="container">
+                <h3 class="statement-text">
+                    A modern, hygienic environment where expert doctors explain procedures clearly and ensure your absolute comfort.
+                </h3>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <img src="public/images/about_equipment_1789560689965.png" alt="Modern dental equipment" class="about-img">
+                    </div>
+                    <div class="about-text">
+                        <span class="section-label">The Clinic</span>
+                        <h3 class="section-title">Rooted in Care &amp; Modern Technology</h3>
+                        <p>At Perio Dent, we combine the latest equipment with a deeply caring approach. Known for our pristine hygiene and professional staff, we create an environment where even children feel comfortable.</p>
+                        <p>Our founding doctors, including Dr. Saurabh, believe in clear communication—ensuring you understand every step of your treatment before we begin.</p>
+                        <div class="badges">
+                            <span class="badge">Women-Owned</span>
+                            <span class="badge">LGBTQ+ Friendly</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Treatments Section -->
+        <section id="treatments" class="treatments">
+            <div class="container">
+                <span class="section-label">Expertise</span>
+                <h3 class="section-title">Specialized Care</h3>
+                
+                <div class="treatment-list">
+                    <div class="treatment-item">
+                        <div class="treatment-header">
+                            <span class="treatment-num">01</span>
+                            <h4 class="treatment-name">Painless Procedures</h4>
+                            <span class="treatment-icon">+</span>
+                        </div>
+                        <div class="treatment-body">
+                            <p>Advanced techniques to ensure your comfort during every visit, making dental anxiety a thing of the past.</p>
+                        </div>
+                    </div>
+                    <div class="treatment-item">
+                        <div class="treatment-header">
+                            <span class="treatment-num">02</span>
+                            <h4 class="treatment-name">Root Canal Treatment</h4>
+                            <span class="treatment-icon">+</span>
+                        </div>
+                        <div class="treatment-body">
+                            <p>Precise and effective endodontic therapy designed to save your natural tooth with minimal discomfort.</p>
+                        </div>
+                    </div>
+                    <div class="treatment-item">
+                        <div class="treatment-header">
+                            <span class="treatment-num">03</span>
+                            <h4 class="treatment-name">Gum Surgery</h4>
+                            <span class="treatment-icon">+</span>
+                        </div>
+                        <div class="treatment-body">
+                            <p>Expert periodontal care to restore the health of your gums and the foundational structure of your teeth.</p>
+                        </div>
+                    </div>
+                    <div class="treatment-item">
+                        <div class="treatment-header">
+                            <span class="treatment-num">04</span>
+                            <h4 class="treatment-name">Tooth Removal</h4>
+                            <span class="treatment-icon">+</span>
+                        </div>
+                        <div class="treatment-body">
+                            <p>Safe, careful extractions performed by experienced professionals in a completely sterile environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process / Journey Section -->
+        <section class="process">
+            <div class="container">
+                <span class="section-label">The Journey</span>
+                <h3 class="section-title">A Seamless Experience</h3>
+            </div>
+            
+            <div class="journey-wrapper">
+                <svg class="journey-line-svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="journey-path" d="M0,50 Q250,0 500,50 T1000,50" fill="none" stroke="#B58A7A" stroke-width="2" stroke-dasharray="1000" stroke-dashoffset="1000"/>
+                </svg>
+                <div class="journey-steps">
+                    <div class="step">
+                        <div class="step-dot"></div>
+                        <h4>Consultation</h4>
+                        <p>Clear explanation</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-dot"></div>
+                        <h4>Comfort</h4>
+                        <p>Painless approach</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-dot"></div>
+                        <h4>Treatment</h4>
+                        <p>Modern equipment</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-dot"></div>
+                        <h4>Aftercare</h4>
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section class="technology">
+            <div class="tech-bg">
+                <img src="public/images/tech_abstract_1789561012402.jpg" alt="Abstract modern technology" class="tech-img">
+            </div>
+            <div class="container tech-content">
+                <h3 class="statement-text light">
+                    Equipped with the latest advancements for precise, efficient, and comfortable general dentistry.
+                </h3>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <div class="reviews-header">
+                    <div class="stat-counter">
+                        <span id="rating-val">5.0</span>★
+                    </div>
+                    <p>Based on <span id="review-count">526</span> Google Reviews</p>
+                </div>
+                
+                <div class="reviews-carousel">
+                    <div class="review-card">
+                        <p class="quote">"Hygienic clinic and professional staff. Dr. Saurabh explained the procedure clearly before starting."</p>
+                        <span class="author">— Google Review</span>
+                    </div>
+                    <div class="review-card">
+                        <p class="quote">"Very comfortable experience. The latest equipment and a truly painless root canal treatment."</p>
+                        <span class="author">— Google Review</span>
+                    </div>
+                    <div class="review-card">
+                        <p class="quote">"Great service, caring doctors, and surprisingly good with children. Highly recommended."</p>
+                        <span class="author">— Google Review</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="gallery-band">
+                <img src="public/images/gallery_waiting_1789560998520.jpg" alt="Minimalist waiting room" class="gallery-img">
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h3 class="section-title">Common Questions</h3>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            When are you open?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We are open daily and our clinic operates until 9:30 PM for your convenience.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do you treat children?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, our doctors are experienced in pediatric care and ensure a comfortable environment for children.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Are the procedures actually painless?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We utilize modern equipment and techniques specifically designed to minimize discomfort, earning a reputation for painless procedures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 class="section-title">Visit the Clinic</h3>
+                        <p class="address">
+                            Shop No 11, DLH Dream Tower,<br>
+                            Jai Bhavani Mata Road, Amboli,<br>
+                            Andheri West, Mumbai,<br>
+                            Maharashtra 400058
+                        </p>
+                        <p class="hours">Open until 9:30 PM</p>
+                        
+                        <div class="contact-actions">
+                            <a href="tel:07021306774" class="btn btn-outline magnetic">Call 07021306774</a>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Shop+No+11%2C+DLH+Dream+Tower%2C+Jai+Bhavani+Mata+Road%2C+Amboli%2C+Andheri+West%2C+Mumbai%2C+Maharashtra+400058" target="_blank" rel="noopener noreferrer" class="btn btn-primary magnetic">Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2>PERIO DENT</h2>
+                    <p>Premium Dental Care in Mumbai</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">Clinic</a>
+                    <a href="#treatments">Treatments</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="tel:07021306774">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Perio Dent. All rights reserved.</p>
+                <p class="agency-credit">Demo concept by Agency</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
